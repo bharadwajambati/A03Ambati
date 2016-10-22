@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Converter</title>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="kanni.css">
+<script src="JS.js"></script>
+</head>
+<body>
+
+ <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Bharadwaj's Page</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li ><a href="Home.html">Home</a></li>
+      <li class="active"><a href="Converter.html">Converter</a></li>
+      <li><a href="Contact.html">Contact</a></li>
+      <li><a href="http://127.0.0.1:8081/views/index.ejs">Guest Book</a></li>
+    </ul>
+  </div>
+</nav>
+ 
+  <div class="page-header">
+
+    <h1><b>Currency Converter</h1>
+ </div>
+
+
+<div id="container-fluid">
+  
+
+<form id="converter">
+	From<br>
+	<select id="from">
+		
+
+		<option>Select </option>  
+		<option>USD</option>
+		<option>INR</option>
+		<option>GBP</option>
+		 <option>CAD</option>
+		
+	</select>
+	<input id="io" type="text" name="currency">
+	<br>
+	To<br>
+	<select id="to">
+	 
+	    <option>Select </option>  
+		<option>USD</option> 
+		<option>INR</option>
+		<option>GBP</option>
+		<option>CAD</option>
+	 
+	</select>
+	<br><br>
+<button type="button" onclick="sum()">Submit</button><br><br>
+<div class="output">Output<br>
+	<input id="io1" type="text" name="converter">
+  
+</form>
+</div>
+  </div>
+</div>
+ 
+
+</body>
+</html>

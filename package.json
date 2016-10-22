@@ -1,0 +1,23 @@
+{   "name": "M07",
+    "version": "0.0.1",
+    "description": "simple guestbook app",
+    "main": "gbapp.js",
+    "dependencies": {
+        "express": "latest",
+        "morgan": "latest",
+        "body-parser": "latest",
+        "ejs": "latest"
+    },
+    "author": "Bharadwaj Ambati",
+    "homepage": "https://github.com/bharadwajambati/A03Ambati",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/bharadwajambati/A03Ambati"
+    },
+     "license": "Apache-2.0"
+}
+
+
+
+
+

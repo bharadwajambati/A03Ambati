@@ -1,0 +1,60 @@
+body{ 
+background: url("http://media.gettyimages.com/videos/background-video-id482142818?s=640x640") no-repeat center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+overflow-x: hidden; 
+ 
+}
+ 
+#text{
+	font-size: 50px;color: black; font-family: "Monotype Corsiva";
+} 
+
+h4{font-size: 30px;
+font-family: "Monotype Corsiva"}
+
+pre{font-size:20px;font-family: "Monotype Corsiva" }
+h1{
+	font-size: 50px; text-align: center; 
+}
+h2{
+	margin-left: 20px;
+	font-weight: bold;
+	font-size: 40px; font-family: "Monotype Corsiva"  
+}
+
+ #foot{
+	margin: -67px 0px 0px 300px; 
+}
+
+.logos{
+	width: 30px; height: 30px;  display: inline; 
+} 
+
+#logo1{
+	width: 85px; height: 30px;
+}
+
+#end{
+	margin-left: 0px;
+	 
+}
+ 
+#container-fluid{
+font-size: 20px;
+padding: 5px;
+}
+ 
+ 
+.page-footer{
+	 width: 250px;
+    float: none;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+#video{
+  height: 300px; width:500px; 
+ }
